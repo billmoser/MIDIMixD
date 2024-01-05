@@ -14,7 +14,8 @@ To enter the new device-edit mode, hold down the `SOLO` button and then press th
 To return to the initial mode, press `SOLO`-`BANK LEFT` on the MIDIMIX.
 
 ## Installation
-The best place to install this is in the `Remote Scripts` folder of your `User Library`.  Open  Live's `Preferences` dialog to find the library location.  You'll have to create the `Remote Scripts` folder first if it doesn't exist.  Once installed, you will of course need to enable it as the `Control Surface` for your MIDIMIX under the `Link/Tempo/MIDI` tab of the `Preferences` dialog.
+The best place to install this is in the `Remote Scripts` folder of your `User Library`.  Open  Live's `Preferences` dialog to find the library location.  You'll have to create the `Remote Scripts` folder first if it doesn't exist.  Download the `.zip` file, and unzip it into the `Remote Scripts` folder.  You should see a new folder there named `MIDIMixD`.  Once installed, you will need to enable `MIDIMixD` as the `Control Surface` for your MIDIMIX under the `Link/Tempo/MIDI` tab of the `Preferences` dialog.
+
 
 ## Limitations
 I don't have much experience developing controller scripts for Live.  It's probably possible to retain the `REC ARM` functionality of the original Live script in the default mode, but I couldn't find a way.
