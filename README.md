@@ -2,9 +2,10 @@
 
 ## Overview
 
-The primary use case for this is to enable device parameter editing while using the MIDIMIX in your mixing process.  In the initial mode, the functionality is nearly the same as when using Live's default `MIDI Mix` script.  However, there are two key differences: 
-- In session view, the first-scene clip slots of the controlled tracks are now highlighted with a colored box
-- The `REC ARM` buttons now operate as track selection buttons
+The primary use case for this is to enable device parameter editing while using the MIDIMIX in your mixing process.  In the initial mode, the functionality is nearly the same as when using Live's default `MIDI Mix` script.  Here are the differences: 
+- In session view, the first-scene clip slots of the controlled tracks are now highlighted with a colored box.  
+-  The box updates with presses of `BANK LEFT` and `BANK RIGHT`, of course.  However, `BANK LEFT/BANK RIGHT` only increments/decrements the track selection scope by one track, rather than eight.
+- The `REC ARM` buttons now operate as track selection buttons.
 
 The remaining controls -- pots, sends, mute/solo buttons, and volume faders -- operate as before.
 
