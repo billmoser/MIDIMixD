@@ -24,7 +24,8 @@ I don't have much experience developing controller scripts for Live.  It's proba
 There also didn't seem to be a simple way to enable device selection from the MIDIMIX.  So, keyboard shortcuts are your friend here.  Once you've selected a track, if the device view does not already have the focus, hit `SHIFT-TAB` twice to set the focus.  Then, you can use your left/right arrow keys to select the desired device.  Once the focus has been set for a track, it will persist while selecting other tracks, until you shut down Live.  As far as I can tell, Live does not save these settings when you exit the application.
 
 ## Notes
-The script assumes that the MIDIMIX is in factory default configuration.  If you've changed that, you'll need to update `elements.py` with the new `CC/NOTE` values.
+- **MIDIMIX configuration:** The script assumes that the MIDIMIX is in factory default configuration.  If you've changed that, you'll need to update `elements.py` with the new `CC/NOTE` values.
+- **Live versions tested:**  Only tested on 11.3.13.
 
 ## Contributions
 If you have a worthwhile addition or enhancement, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
