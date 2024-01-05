@@ -1,0 +1,13 @@
+node_modules/
+bower_components/
+*.log
+
+build/
+dist/
+
+*.als
+Backup/
+Samples/
+.DS_Store
+
+__pycache__
